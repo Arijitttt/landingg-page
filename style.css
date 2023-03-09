@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 10;
+  color: #e5e5e5;
+  line-height: 2.8em;
+}
+.developer-img {
+  background-image: url(developer.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.intro-txt {
+  position: absolute;
+  top: 13%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1.8px;
+}
+.hi {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.normal-txt {
+  font-size: 50px;
+  font-weight: lighter;
+}
+.box1{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    background-color: #161619;
+    width: 100%;
+    padding: 1px;
+}
+.box1{
+    font-size: 32px;
+
+}
+.w{
+    letter-spacing: 2.8px;
+    font-weight: lighter;
+}
+.you{
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4.5px;
+}
+.work{
+    margin: 135px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    color: #161619;
+}
+.card{
+    max-width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 1.8em;
+}
+.boxx1{
+    background-color: #515603;
+    display: inline-block;
+    width: 50%;
+    height: 378px;
+}
+.boxx2{
+    display: inline-block;
+    width: 50%;
+    height: 378px;
+    background-color: #722300;
+    padding-left: 2px;
+    position: absolute;
+}
+.end{
+    background-color: #161619;
+    text-align: center;
+    text-decoration: wavy;
+    padding: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    font-family: 'Josefin Sans', sans-serif;
+}
